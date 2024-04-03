@@ -1,5 +1,6 @@
 # 參考自: https://steam.oxxostudio.tw/category/python/ai/ai-mediapipe-gesture.html  
 ## 使用 MediaPipe 和 OpenCV 進行手勢識別  
+![image](https://github.com/WANG-YI-CHEN-411034018/gesture/tree/main/gesture_img)  
 * 這個 Python 程式利用了 MediaPipe 和 OpenCV 庫來識別通過網絡攝像頭捕捉到的手勢。該程序檢測手部地標並計算手指之間的角度以識別特定手勢。
 * 遇到的困難:
   安裝opencv-python 和 mediapipe後人會有No module named 'cv2'的問題，再命令提示字元在安裝一次後解決，應該是版本換環境問題  
